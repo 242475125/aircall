@@ -13,3 +13,27 @@ body {
   color: #333333;
   line-height: 1;
 }
+
+.activities-tabs {
+  scroll-behavior: smooth;
+  overflow: hidden;
+  width: 100%;
+}
+
+.tabs-menu{
+  max-width: 35vw;
+}
+.tabs-menu .item{
+  width: 100px;
+  min-width: 100px;
+}
+
+.warp-word{
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+.action-button .icon{
+  margin-left: 25px;
+  margin-right: -10px;
+}
